@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sorts+Mill+Goudy:ital@0;1&family=Tajawal:wght@200;300;400;500;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&family=Zen+Dots&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* navbar */
+.navbar{
+    background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+    color: #fff;
+}
+.content{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .left .logo{
+    padding-right: 50px;
+}
+
+.content .left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .left ul li{
+    padding: 0px 20px 0px 0px;
+    position: relative;
+}
+.content .left ul li:after{
+    content: "";
+    width: 70%;
+    height: 2px;
+    color: #fff;
+    background-color: #fff;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+.navbar button{
+    padding: 12px 21px;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.navbar button:hover{
+    background-color: #fff;
+    color: #e83e8c;
+}
+
+
+/* home */
+.home {
+    background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+    color: #fff;
+}
+.home .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+.home .left h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.home .left p{
+    margin-bottom: 29px;
+    padding-right: 16px;
+    font-size: 18px;
+}
+.home .left button{
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%);
+    padding: 17px 27px;
+    font-size: 16px ;
+    font-weight: 700 ;
+    border-radius: 25px;
+    line-height: 1;
+    border: none;
+    
+}
+
+
+.home .right {
+    width: 70%;
+    height: 480px;
+}
+.home .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
